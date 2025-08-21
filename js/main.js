@@ -8,14 +8,8 @@ window.addEventListener("scroll" , function(){
     }else{
         navbar.classList.remove("scrolled");
         logoImage.src="images/bakery-light-1 (1).png";
-
-
     }
-
-   
-    
 });
-
 
 window.addEventListener("scroll",function(){
     const scrollTop = document.getElementById("top-scroll");
@@ -32,8 +26,6 @@ window.addEventListener("scroll", function() {
     const navBar = document.getElementById("top");
     const logoImage = document.getElementById("logo-img");
     logoImage.src="images/bakery-color.png";
-
-
   }
   else{
 
