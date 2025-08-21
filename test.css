@@ -1,0 +1,78 @@
+#panel {
+  position: fixed;
+  width: 290px;
+  right: -290px;
+  top: 0;
+  bottom: 0;
+  background: #fff;
+  box-shadow: 0 -1px 17px 1px rgba(0, 0, 0, 0.09);
+  z-index: 999999;
+  transition: all 0.4s;
+  height: 100%;
+  font-size: 13px;
+}
+
+.panel-menu {
+  position: absolute;
+  left: -42px;
+  top: 200px;
+  height: 86px;
+  width: 42px;
+  background: #fff;
+  border-radius: 4px 0 0 4px;
+  text-align: center;
+  line-height: 42px;
+  font-size: 22px;
+  box-shadow: 0 -1px 17px 1px rgba(0, 0, 0, .09);
+}
+
+.panel-menu ul {
+  position: absolute;
+  top: 0;
+  right: 5px;
+}
+
+.panel-menu ul li i {
+  color: var(--secondry-color);
+  transition: all .2s ;
+}
+
+.panel-menu ul li i:hover {
+      color: #0275d8;
+}
+.panel-menu ul li{
+    position: relative;
+}
+
+.see-demo , .buy-now{
+  position: absolute;
+  right: 40px;
+  top: 6px;
+  width: 160px;
+  background: #fff;
+  box-shadow: 0 0px 8px 1px rgba(0, 0, 0, 0.08);
+  border-radius: 3px;
+  padding: 7px 11px;
+  font-size: 15px;
+  color: #333;
+  line-height: 1.3em;
+  cursor: pointer;
+  transition: all .4s;
+
+  /* display: none; */
+  opacity: 0;
+  
+}
+.see-demo:hover , .buy-now:hover{
+    background-color:   #0275d8;;
+    color: #fff;
+}
+
+.see:hover .see-demo , .buy:hover .buy-now{
+    /* display: block; */
+    opacity: 1;
+} 
+ul{
+    list-style: none;
+    
+}
